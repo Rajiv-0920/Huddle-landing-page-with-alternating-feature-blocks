@@ -120,6 +120,9 @@ header {
   gap: 30px;
   text-align: center;
 }
+.container > section .description {
+  margin-top: 30px;
+}
 .container > :last-child {
   box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.064);
   transform: translateY(66%);
@@ -255,6 +258,9 @@ footer .brand img {
     text-align: left;
     margin-bottom: 50px;
   }
+  .container > section .description {
+    margin-top: 0;
+  }
   .started-btn {
     width: 70%;
     align-self: flex-start;
@@ -284,7 +290,8 @@ footer .brand img {
     box-shadow: 0 0 10px #0000003c;
   }
   .container .img-box {
-    height: 250px;
+    min-height: 250px;
+    max-height: 300px;
     width: 100%;
   }
   .container .img-box img {
