@@ -289,9 +289,11 @@ footer .brand img {
     padding: 40px;
     box-shadow: 0 0 10px #0000003c;
   }
+  .description {
+    width: 100%;
+  }
   .container .img-box {
-    min-height: 250px;
-    max-height: 300px;
+    height: 300px;
     width: 100%;
   }
   .container .img-box img {
